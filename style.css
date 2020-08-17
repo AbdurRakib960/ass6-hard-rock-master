@@ -51,14 +51,23 @@ body{
     letter-spacing: 1px;
     font-size: 18px;
     position: relative;
-    
+    background-color: #424349;
+    padding: 30px;
+    border-radius: 10px;
+    border-right: 2px solid yellow;
+    border-left: 2px solid yellow;
+}
+.song-list li:hover{
+    background-color: #66686e;
+    border-right: 2px solid orangered;
+    border-left: 2px solid orangered;
 }
 .song-list li::after{
     content: "";
     position: absolute;
     right: -20px;
     left: -20px;
-    bottom: -15px;
+    bottom: -10px;
     height: 3px;
     background-image: linear-gradient(to right,dodgerBlue, tomato, orange, purple);
     display: inline-block;
