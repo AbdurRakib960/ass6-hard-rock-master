@@ -36,7 +36,8 @@ function showData(data){
                             <div>
                                 <strong>
                                 ${song.artist.name}
-                                </strong> -${song.title}
+                                </strong> <br>
+                                    -${song.title}
                             </div>
                             <span data-artist = "${song.artist.name}" data-songtitle= "${song.title}">
                                 get lyrics
